@@ -23,6 +23,12 @@ package
 			// entry point
 			
 			var planet:MovieClip = new MovieClip();
+			addChild(planet)
+			
+			planet.graphics.beginFill(0xFF, 1)
+			planet.graphics.drawCircle(400, 300, 20)
+			planet.graphics.endFill()
+			
 			
 		}
 		
