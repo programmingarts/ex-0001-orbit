@@ -1,5 +1,6 @@
 package
 {
+	import flash.display.MovieClip;
 	import flash.display.Sprite;
 	import flash.events.Event;
 	
@@ -20,6 +21,9 @@ package
 		{
 			removeEventListener(Event.ADDED_TO_STAGE, init);
 			// entry point
+			
+			var planet:MovieClip = new MovieClip();
+			
 		}
 		
 	}
